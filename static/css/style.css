@@ -1,0 +1,59 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+
+.story-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.story-card:hover {
+    transform: translateY(-5px);
+}
+
+#story-content {
+    min-height: 200px;
+    line-height: 1.8;
+    font-size: 1.1em;
+}
+
+.btn-primary {
+    background-color: #4a90e2;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #357abd;
+    transform: scale(1.05);
+}
+
+.accordion {
+    margin-top: 2rem;
+}
+
+.element-category {
+    margin-bottom: 1rem;
+}
+
+.element-item {
+    background-color: #f8f9fa;
+    padding: 0.5rem;
+    margin: 0.25rem;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
